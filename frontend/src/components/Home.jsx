@@ -42,7 +42,7 @@ const Home = () => {
 <>
 <Navbar/>
     <div>
-        {/* Welcome {user} */}
+       
     </div>
     
     <Container>
@@ -50,13 +50,7 @@ const Home = () => {
                 {inputs.map((input) => (
                     <Grid item key={input._id} xs={12} sm={6} md={4}>
                         <Card>
-                            {/* <CardMedia
-                                component="img"
-                                height="200"
-                                image={input.courseImageurl}
-                                alt={input.title}
-                                style={{ objectFit: 'contain' }} // Ensures the image fits nicely within the card
-                            /> */}
+                            
                             <CardContent>
                             <Typography variant="h6" component="div">
                                     {input.employeeID}

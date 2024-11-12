@@ -21,12 +21,7 @@ let validateUser=()=>{
        navigate('/home')
     }
   })
-//      if ((user.username=="admin" )&&(user.password=="123")) {
-//         localStorage.setItem("username","admin"); //method to store value in variable
-//         navigate('/home');
 
-//     }
-//      else alert("Invalid credentials")
 
  }
   return (
@@ -46,5 +41,4 @@ let validateUser=()=>{
 }
 
 export default Login
-//interceptors 
-//js file because no rendering only actions
+
